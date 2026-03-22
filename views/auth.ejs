@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/auth.css">
+
+    <title>NeuroNest - Auth</title>
+</head>
+
+<body>
+
+
+    <!-- Restration form  -->
+    <!-- aleart -->
+
+
+
+    <section class="section" id="registration">
+
+
+
+
+        <form action="/submit" method="post" id="registerForm">
+            <div>
+                <label for="name">Name : </label>
+                <input required type="text" id="name" name="name" placeholder="Enter Your Name">
+            </div>
+            <div>
+                <label for="email">E-mail : </label>
+                <input required type="email" id="email" name="email" placeholder="Enter Your E-mail">
+            </div>
+            <div>
+                <label for="role">Role : </label>
+                <select name="role" id="role">
+                    <option value="Default">Select</option>
+                    <option value="Educator">Educator</option>
+                    <option value="Student">Student</option>
+                </select>
+            </div>
+            <div>
+                <label for="password">password : </label>
+                <input required type="password" id="password" name="password" placeholder="Enter Your Password">
+            </div>
+            <div>
+                <label for="confirmPassword">Confirm : </label>
+                <input required type="password" id="confirmPassword" name="confirmPassword"
+                    placeholder="Enter Your Password">
+            </div>
+            <div class="achorFormate" id="signInForm">
+                <a href="/loginPage">Already Registered&quest;</a>
+            </div>
+            <div>
+                <button id="submit">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                    <span class="circle4"></span>
+                    <span class="circle5"></span>
+                    <span class="text">Submit</span>
+                </button>
+
+                <button id="reset">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                    <span class="circle4"></span>
+                    <span class="circle5"></span>
+                    <span class="text">Reset</span>
+                </button>
+            </div>
+        </form>
+    </section>
+
+
+    <script src="../js/auth.js"></script>
+
+</body>
+
+</html>

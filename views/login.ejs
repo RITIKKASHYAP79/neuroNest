@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neuroNest--Login</title>
+        <link rel="stylesheet" href="../css/auth.css">
+
+</head>
+<body>
+        <!-- login form  -->
+    <section class="section" id="login">
+        <form action="/login" method="post">
+            <div>
+                <label for="loginEmail">E-mail : </label>
+                <input required type="email" id="lemail" name="lemail" placeholder="Enter Your E-mail">
+            </div>
+            <div>
+                <label for="loginPassword">password : </label>
+                <input required type="password" id="loginPassword" name="lpassword" placeholder="Enter Your Password">
+            </div>
+            <div class="achorFormate" id="registerationForm">
+                <a href="/auth"> haven&apos;t registered yet&quest;</a>
+            </div>
+            <div class="btn">
+                <button id="btnlogin">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                    <span class="circle4"></span>
+                    <span class="circle5"></span>
+                    <span class="text">Submit</span>
+                </button>
+
+                <button id="loginReset">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                    <span class="circle4"></span>
+                    <span class="circle5"></span>
+                    <span class="text">Reset</span>
+                </button>
+            </div>
+        </form>
+    </section>
+    <script src="../js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <title>neuroNest--Quiz</title>
+</head>
+
+<body>
+    <form action="/check" method="post">
+        <div id="question"><%=questionNumber%>. <%=question%></div>
+        <section id="answers">
+            <div><input type="radio" value="<%=answer1%>" name="userAnswer" id="ans1">
+                <label for="ans1"><%=answer1%></label>
+            </div>
+
+            <div>
+                <input type="radio" value="<%=answer2%>" name="userAnswer" id="ans2">
+                <label for="ans2"><%=answer2%></label>
+            </div>
+
+            <div>
+                <input type="radio" value="<%=answer3%>" name="userAnswer" id="ans3">
+                <label for="ans3"><%=answer3%></label>
+            </div>
+
+            <div>
+                <input type="radio" value="<%=answer4%>" name="userAnswer" id="ans4">
+                <label for="ans4"><%=answer4%></label>
+            </div>
+
+        </section>
+        <div class="btnSection">
+            <button class="btn" type="submit" id="checkAnswerButton">Check</button>
+            <button class="btn" type="button" id="nextQuestionButton">Next</button>
+        </div>
+    </form>
+    <a href="/"><img class="logo" src="../img/logo.jpeg" alt="home"></a>
+
+    <script>
+        let next = document.getElementById("nextQuestionButton");
+        next.addEventListener("click",()=>{
+            window.location.href="/next";
+        })
+    </script>
+
+</body>
+
+</html>

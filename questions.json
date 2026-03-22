@@ -1,0 +1,12 @@
+[
+  {"question": "What is the square root of 144?", "a": "10", "b": "12", "c": "14", "d": "16", "answer": "12"},
+  {"question": "What is the value of Pi rounded to 2 decimal places?", "a": "3.12", "b": "3.14", "c": "3.16", "d": "3.18", "answer": "3.14"},
+  {"question": "How many sides does a hexagon have?", "a": "5", "b": "6", "c": "7", "d": "8", "answer": "6"},
+  {"question": "What is 7 multiplied by 8?", "a": "54", "b": "56", "c": "62", "d": "64", "answer": "56"},
+  {"question": "Which prime number comes after 17?", "a": "18", "b": "19", "c": "21", "d": "23", "answer": "19"},
+  {"question": "What is the sum of angles in a triangle?", "a": "90°", "b": "180°", "c": "270°", "d": "360°", "answer": "180°"},
+  {"question": "What is 2 to the power of 5?", "a": "10", "b": "16", "c": "32", "d": "64", "answer": "32"},
+  {"question": "What is the Roman numeral for 50?", "a": "X", "b": "L", "c": "C", "d": "D", "answer": "L"},
+  {"question": "Which is a 'right' angle?", "a": "45°", "b": "90°", "c": "180°", "d": "360°", "answer": "90°"},
+  {"question": "What is 100 divided by 4?", "a": "20", "b": "25", "c": "30", "d": "40", "answer": "25"}
+]

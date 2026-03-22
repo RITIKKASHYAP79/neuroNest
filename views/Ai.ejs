@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Ai.css">
+    <title>neuroNest--AI</title>
+</head>
+
+<body>
+    <section class="main">
+        <pre id="userTextDisplay">
+            <%= userPrompt %>
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat impedit maxime sint natus quam aliquam
+            fugit adipisci obcaecati ullam porro. -->
+        </pre>
+        <pre id="aiGeneratedContent">
+            <%= aiGenerated %>
+            <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora aliquid tempore dolore natus suscipit,
+            expedita voluptates voluptate, libero autem quisquam perspiciatis possimus rem minima animi laboriosamk lorem5000
+            ducimus ullam explicabo. Repudiandae impedit autem accusantium. Commodi, odio dolorem! Molestias beataeullam explicabo. Repudiandae impedit autem accusantium. Commodi, odio dolorem! Molestias beatae
+            obcaecati nulla. Quidem animi veritatis voluptatem quis. Quasi hic commodi accusamus.ullam explicabo. Repudiandae impedit autem accusantium. Commodi, odio dolorem! Molestias beatae
+            obcaecati nulla. Quidem animi veritatis voluptatem quis. Quasi hic commodi accusamus.ullam explicabo. Repudiandae impedit autem accusantium. Commodi, odio dolorem! Molestias beatae
+            obcaecati nulla. Quidem animi veritatis voluptatem quis. Quasi hic commodi accusamus.
+            obcaecati nulla. Quidem animi veritatis voluptatem quis. Quasi hic commodi accusamus. -->
+
+            
+        </pre>
+    </section>
+
+    <form action="/Ai/generate" method="post" id="inputArea">
+        <!-- <input required type="text" name="userQuery" id="userQuery" placeholder="type here"> -->
+        <textarea name="userQuery" id="userQuery"></textarea>
+        <button type="submit" id="searchButton">
+        <img src="../img/aisearch.svg" alt="">
+        </button>
+    </form>
+
+    <a href="/"><img class="logo" src="../img/logo.jpeg" alt="home"></a>
+
+    <!-- <script>
+        function generate() {
+            let query = document.getElementById("query").value;
+            window.location.href="/generate"
+        }
+</script> -->
+
+</body>
+
+</html>
